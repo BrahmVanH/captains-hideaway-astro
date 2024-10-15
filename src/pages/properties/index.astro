@@ -1,0 +1,9 @@
+---
+import Layout from "@layouts/Layout.astro"
+import { getCollection } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+
+const allProperties: CollectionEntry<'property'>[] = await getCollection('property');
+
+
+---

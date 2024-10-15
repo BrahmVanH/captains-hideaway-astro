@@ -7,7 +7,9 @@
 			"@lib/*": ["src/lib/*"],
 			"@components/*": ["src/components/*"],
 			"@styles/*": ["src/styles/*"],
-			"@layouts/*": ["src/layouts/*"]
+			"@layouts/*": ["src/layouts/*"],
+			"@images/*": ["src/img/*"],
+			"@svgs/*": ["src/img/svg/*"]
 		},
 
 		"jsx": "react-jsx",

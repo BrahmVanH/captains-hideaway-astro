@@ -2,20 +2,23 @@
 import BrandImage from './BrandImg';
 ---
 
-<nav class='w-full flex justify-between items-center px-7 py-2 text-black bg-white border-b-[5px] border-secondary'>
-	<a href='/' class=''>
+<nav class='w-full flex justify-between items-center px-7 py-2 text-black bg-white border-b-[5px] border-secondary' aria-label="'Main Navigation">
+	<a href='/' class='' aria-label='Home'>
 		<BrandImage client:load />
 	</a>
 	<ul class='links flex flex-row justify-evenly [&>li]:ml-4 last:mr-4 [&>li]:my-2 font-semibold text-2xl'>
-		<li><a href='/'>Home</a></li>
-		<li><a href='/properties'>Properties</a></li>
-		<li><a href='/about'>About</a></li>
-		<li><a href='/blog'>Contact</a></li>
+		<li><a href='/' aria-label='Home'>Home</a></li>
+		<li><a href='/properties' aria-label='Properties'>Properties</a></li>
+		<li><a href='/about' aria-label='About'>About</a></li>
+		<li><a href='/blog' aria-label='Contact'>Contact</a></li>
 	</ul>
-	<ul class='md:hidden flex items-center flex-col m-auto w-full bg-primary text-white absolute border border-transparent rounded-br-sm rounded-bl-sm [&>li]:mt-2 last:mb-2 [&>li]:mx-1'>
-		<li><a href='/'>Home</a></li>
-		<li><a href='/properties'>Properties</a></li>
-		<li><a href='/about'>About</a></li>
-		<li><a href='/blog'>Contact</a></li>
+	<ul
+		class='md:hidden flex items-center flex-col m-auto w-full bg-primary text-white absolute border border-transparent rounded-br-sm rounded-bl-sm [&>li]:mt-2 last:mb-2 [&>li]:mx-1'
+		aria-haspopup='true'
+		aria-expanded='false'>
+		<li><a href='/' aria-label='Home'>Home</a></li>
+		<li><a href='/properties' aria-label='Properties'>Properties</a></li>
+		<li><a href='/about' aria-label='About'>About</a></li>
+		<li><a href='/blog' aria-label='Contact'>Contact</a></li>
 	</ul>
 </nav>
