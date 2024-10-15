@@ -1,0 +1,7 @@
+ h1 {
+	border-bottom: 2px solid transparent;
+	border-image-source: linear-gradient(to right, white, #abccd8, #5f8fa5, #abccd8, white);
+	border-image-slice: 1;
+	border-image-outset: 0;
+	border-image-repeat: stretch;
+}
