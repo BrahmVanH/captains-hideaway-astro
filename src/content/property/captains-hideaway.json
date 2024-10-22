@@ -4,53 +4,87 @@
 	"img": {
 		"hero": "captains_hideaway_png/stairs_from_beach_rotated.png"
 	},
-	"overview": {
-		"bedrooms": "4",
-		"bathrooms": "3",
-		"sleeps": "10"
+	"titleCard": {
+		"heading": "Captain's Hideaway",
+		"body": "Some text",
+		"content": [
+			{
+				"heading": "bedrooms",
+				"content": "4 Bedrooms",
+				"icon": "bedroom"
+			},
+			{
+				"heading": "bathrooms",
+				"content": "3 Bathrooms",
+				"icon": "bathtub"
+			},
+			{
+				"heading": "sleeps",
+				"content": "Sleeps 10",
+				"icon": "double-bed"
+			}
+		]
 	},
-	"roomsAndBeds": [
+	"overview": [
 		{
-			"room": "Master Bedroom",
-			"beds": "1 King Bed"
+			"heading": "Rooms & Beds",
+			"content": [
+				{
+					"heading": "Master Bedroom",
+					"content": "1 King Bed",
+					"icon": "king-bed"
+				},
+				{
+					"heading": "Bedroom 2",
+					"content": "1 Queen Bed",
+					"icon": "double-bed"
+				},
+				{
+					"heading": "Bedroom 3",
+					"content": "1 Double Bed",
+					"icon": "single-bed"
+				},
+				{
+					"heading": "Bedroom 4",
+					"content": "1 Twin Bunk Bed",
+					"icon": "bunk-beds"
+				},
+				{
+					"heading": "Living Room",
+					"content": "2 Sleeper Sofas",
+					"icon": "wide-couch"
+				}
+			]
 		},
 		{
-			"room": "Bedroom 2",
-			"beds": "1 Queen Bed"
-		},
-		{
-			"room": "Bedroom 3",
-			"beds": "1 Double Bed"
-		},
-		{
-			"room": "Bedroom 4",
-			"beds": "1 Twin Bunk Bed"
-		},
-		{
-			"room": "Living Room",
-			"beds": "2 Sleeper Sofas"
-		}
-	],
-	"spaces": [
-		{
-			"name": "Dining Area",
-			"icon": ""
-		},
-		{
-			"name": "Deck/Patio",
-			"icon": ""
-		},
-		{
-			"name": "Porch/Veranda",
-			"icon": ""
-		},
-		{
-			"name": "Kitchen",
-			"icon": ""
-		},
-		{
-			"name": "Lawn & Garden",
-			"icon": ""
+			"heading": "Spaces",
+			"content": [
+				{
+					"heading": "Dining Area",
+					"content": "Dining Area",
+					"icon": "toast-dining"
+				},
+				{
+					"heading": "Deck/Patio",
+					"content": "Deck/Patio",
+					"icon": "deck"
+				},
+				{
+					"heading": "Porch/Veranda",
+					"content": "Porch/Veranda",
+					"icon": "rocking-chair"
+				},
+				{
+					"heading": "Kitchen",
+					"content": "Kitchen",
+					"icon": "kitchen"
+				},
+				{
+					"heading": "Lawn & Garden",
+					"content": "Lawn & Garden",
+					"icon": "garden"
+				}
+			]
 		}
 	],
 	"aboutTheProperty": {
@@ -65,11 +99,7 @@
 			},
 			{
 				"name": "Washer",
-				"icon": "washer"
-			},
-			{
-				"name": "Dryer",
-				"icon": "dryer"
+				"icon": "laundry"
 			},
 			{
 				"name": "Free WiFi",
@@ -81,15 +111,15 @@
 			},
 			{
 				"name": "Outdoor Space",
-				"icon": "outdoor"
+				"icon": "grill"
 			},
 			{
 				"name": "Heat",
-				"icon": "heat"
+				"icon": "hvac"
 			},
 			{
 				"name": "Air Conditioning",
-				"icon": "ac"
+				"icon": "air-conditioning"
 			},
 			{
 				"name": "Beach Access",
@@ -101,11 +131,11 @@
 			},
 			{
 				"name": "Kayaks",
-				"icon": "kayaks"
+				"icon": "kayak"
 			},
 			{
 				"name": "Dishes",
-				"icon": "dishes"
+				"icon": "ramen-dining"
 			}
 		],
 		"all": [
@@ -204,11 +234,13 @@
 	},
 	"houseRules": {
 		"general": ["Check in after 4:00 PM", "Minimum age to rent: 25", "Check out before 11:00 AM"],
-		"children": "All ages",
-		"events": "No Events Allowed",
-		"Pets": "No Pets Allowed",
-		"Smoking": "Smoking not permitted",
-		"additional Rules": [
+		"specific": [
+			{ "heading": "children", "content": "All ages" },
+			{ "heading": "events", "content": "No Events Allowed" },
+			{ "heading": "Pets", "content": "No Pets Allowed" },
+			{ "heading": "Smoking", "content": "Smoking not permitted" }
+		],
+		"additionalRules": [
 			"All dogs on property must be approved by owner. If dogs are left unattended in house for more than 2 hours, renter will forfeit security deposit.",
 			"No Pit Bull Terrier breeds of any kind.",
 			"If you are inquiring about an earlier check-in, call Elyse the day before your date for info."

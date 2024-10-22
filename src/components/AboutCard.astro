@@ -1,12 +1,14 @@
 ---
 import '../styles/AboutCard.css';
+
+const { image } = Astro.props;
 ---
 
 <div class='text-center m-4 p-5 flex flex-col items-center justify-around shadow-lg bg-white rounded-lg'>
 	<h1 class='mb-4 border-2'>About Us</h1>
 	<div class='flex flex-col items-center justify-around'>
 		<div class='about-image-container'>
-			<img class="p-1 m-1" alt='Chris and Elyse, the owners, in front of Lake Superior' ' src={image} width='240px' />
+			<img class='p-1 m-1' alt='Chris and Elyse, the owners, in front of Lake Superior' ' src={image} width='240px' />
 		</div>
 		<p class='p-1 m-1 md:max-w-[90%] w-[80%]'>
 			The UP has always been a home away from home for us. Our hopes are that you find yourself just as welcomed as we did when we first found this property. Captain’s Hideaway was a dream come true

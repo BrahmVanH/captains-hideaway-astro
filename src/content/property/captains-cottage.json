@@ -1,0 +1,225 @@
+{
+	"slug": "captains-cottage",
+	"name": "Captain's Cottage",
+	"img": {
+		"hero": "captains_cottage_png/back_exterior_side_with_lake_cropped.png"
+	},
+	"titleCard": {
+		"heading": "Captain's Cottage",
+		"body": "Some text",
+		"content": [
+			{
+				"heading": "bedrooms",
+				"content": "2 Bedrooms",
+				"icon": "bedroom"
+			},
+			{
+				"heading": "bathrooms",
+				"content": "1 Bathrooms",
+				"icon": "bathtub"
+			},
+			{
+				"heading": "sleeps",
+				"content": "Sleeps 7",
+				"icon": "double-bed"
+			}
+		]
+	},
+	"overview": [
+		{
+			"heading": "Rooms & Beds",
+			"content": [
+				{
+					"heading": "Bedroom 1",
+					"content": "1 Queen Bed",
+					"icon": "double-bed"
+				},
+				{
+					"heading": "Common Area",
+					"content": "1 Double Futon",
+					"icon": "wide-couch"
+				},
+				{
+					"heading": "Loft",
+					"content": "1 Queen, 1 Double, Twin Bunkbeds",
+					"icon": "bunk-beds"
+				}
+			]
+		},
+		{
+			"heading": "Spaces",
+			"content": [
+				{
+					"heading": "Deck/Patio",
+					"content": "Deck/Patio",
+					"icon": "deck"
+				},
+				{
+					"heading": "Kitchen",
+					"content": "Kitchen",
+					"icon": "kitchen"
+				},
+				{
+					"heading": "Lawn & Garden",
+					"content": "Lawn & Garden",
+					"icon": "garden"
+				}
+			]
+		}
+	],
+	"aboutTheProperty": {
+		"subHeading": "Captains Hideaway on Lake Superior",
+		"body": "3 acres of private Lake Superior beach front! Located on the North Country Trail. Muskallonge Lake located directly behind the property for great fishing. Hike or kayak on the famous Two-Hearted river. Parking for RV and 2 out buildings for snowmobile, ORV and boat parking. 9 miles from Pine Stump Junction. Captain's Guest House coming this spring!"
+	},
+	"amenities": {
+		"featured": [
+			{
+				"name": "Kitchen",
+				"icon": "kitchen"
+			},
+			{
+				"name": "Heat",
+				"icon": "hvac"
+			},
+			{
+				"name": "Beach Access",
+				"icon": "beach"
+			},
+			{
+				"name": "Free WiFi",
+				"icon": "wifi"
+			},
+			{
+				"name": "Cable TV",
+				"icon": "tv"
+			},
+			{
+				"name": "Outdoor Space",
+				"icon": "grill"
+			},
+			{
+				"name": "Bath Tub",
+				"icon": "bathtub"
+			},
+			{
+				"name": "Kayaks",
+				"icon": "kayak"
+			},
+			{
+				"name": "Dishes",
+				"icon": "ramen-dining"
+			},
+			{
+				"name": "Dishwasher",
+				"icon": "dishwasher"
+			},
+			{
+				"name": "Grill",
+				"icon": "grill"
+			},
+			{
+				"name": "Coffee Maker",
+				"icon": "coffee"
+			}
+		],
+		"all": [
+			{
+				"type": "Essentials",
+				"items": [
+					"Wireless internet",
+					"Free wifi",
+					"Internet",
+					"wi-fi",
+					"Towels provided",
+					"Linens provided",
+					"Towels and bedding",
+					"Hair dryer",
+					"Shampoo",
+					"Toilet paper",
+					"Paper towels",
+					"Basic soaps",
+					"Heating",
+					"Fireplace"
+				]
+			},
+			{
+				"type": "Kitchen",
+				"items": ["Kitchen", "Refrigerator", "Microwave", "Grill", "Dishes & utensils", "Dining table", "Coffee maker", "Regular or Keurig. Coffee provided.", "Kettle"]
+			},
+			{
+				"type": "Pool & Spa",
+				"items": ["Spa whirlpool"]
+			},
+			{
+				"type": "Outside",
+				"items": ["Fire pit", "Fires permitted on the beach, 30' from bluff", "Outdoor furniture", "Beach towels"]
+			},
+			{
+				"type": "Entertainment",
+				"items": ["Games", "Board games, Bocci ball, horseshoe pit", "Books", "Smart TV"]
+			},
+			{
+				"type": "Baby & toddler",
+				"items": ["Travel crib", "Games for kids", "Dishes & utensils for kids"]
+			},
+			{
+				"type": "Laundry",
+				"items": ["Coin laundry"]
+			},
+			{
+				"type": "Parking",
+				"items": ["Parking", "Room for 4 cars or RV"]
+			},
+			{
+				"type": "Location type",
+				"items": ["Beachfront", "Waterfront", "3 acres on Lake Superior", "Beach", "Beach view"]
+			},
+			{
+				"type": "Nearby activities",
+				"items": ["Zoo", "Swimming", "Boating", "Kayaking", "Hiking", "Wildlife viewing", "Fishing"]
+			},
+			{
+				"type": "Suitability",
+				"items": ["Minimum age limit for renters"]
+			},
+			{
+				"type": "Notes",
+				"items": ["Stairway to the beach is shared with neighbor to the east. New staircase to be finished 4/24. Please be considerate and do not linger on their patio/deck area."]
+			}
+		]
+	},
+	"houseRules": {
+		"general": ["Check in after 4:00 PM", "Minimum age to rent: 25", "Check out before 11:00 AM"],
+		"specific": [
+			{
+				"heading": "children",
+				"content": "All ages"
+			},
+			{
+				"heading": "events",
+				"content": "No Events Allowed"
+			},
+			{
+				"heading": "Pets",
+				"content": "No Pets Allowed"
+			},
+			{
+				"heading": "Smoking",
+				"content": "Smoking not permitted"
+			}
+		],
+		"additionalRules": [
+			"All dogs on property must be approved by owner. If dogs are left unattended in house for more than 2 hours, renter will forfeit security deposit.",
+			"No Pit Bull Terrier breeds of any kind.",
+			"If you are inquiring about an earlier check-in, call Elyse the day before your date for info."
+		]
+	},
+	"damageAndIncidentals": "You will be responsible for any damage to the rental property caused by you or your party during your stay.",
+	"importantInformation": [
+		"Extra-person charges may apply and vary depending on property policy",
+		"Government-issued photo identification and a credit card, debit card, or cash deposit may be required at check-in for incidental charges",
+		"Special requests are subject to availability upon check-in and may incur additional charges; special requests cannot be guaranteed",
+		"Onsite parties or group events are strictly prohibited",
+		"Safety features at this property include a carbon monoxide detector, a fire extinguisher, and a smoke detector"
+	]
+}

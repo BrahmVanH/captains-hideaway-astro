@@ -9,7 +9,8 @@
 			"@styles/*": ["src/styles/*"],
 			"@layouts/*": ["src/layouts/*"],
 			"@images/*": ["src/img/*"],
-			"@svgs/*": ["src/img/svg/*"]
+			"@svgs/*": ["src/img/svg/*"],
+			"@types": ["src/types.d.ts"],
 		},
 
 		"jsx": "react-jsx",
