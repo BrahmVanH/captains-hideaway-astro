@@ -52,12 +52,12 @@ const property: Property = response.data;
 			</aside>
 
 			<section
-				class='rounded-lg w-full [&>div]:mt-4 last:mb-4 [&>p]:text-sm [&>div]:card [&>div]:min-h-[200px] [&>div]:rounded-sm sm:[&>div]:rounded-lg [&>div]:bg-white [&>div]:p-4 [&>div>h1]:heading-border-bottom [&>div>h2]:text-3xl [&>div>h2]:m-2 [&>div>div>h2]:text-3xl [&>div>div>h2]:m-2'
+				class='rounded-lg w-full [&>div]:mt-4 last:mb-4 [&>p]:text-sm [&>div]:card [&>div]:min-h-[200px] [&>div]:rounded-sm sm:[&>div]:rounded-lg [&>div]:bg-white [&>div]:p-4 [&>div>h1]:heading-border-bottom'
 				'>
-				<div class='w-full flex flex-col justify-evenly items-center'>
+				<div class='w-full flex flex-col justify-evenly items-center mt-4  [&>p]:text-sm card min-h-[200px] rounded-sm sm:rounded-lgbg-white p-4 [&>h1]:heading-border-bottom'>
 					<h1 class='heading-border-bottom text-4xl'>{property.titleCard.heading}</h1>
 					<p>{property.titleCard.body}</p>
-					<ul class='flex flex-row justify-evenly [&>li]:ml-4 last:mr-4'>
+					<ul class='w-[80%] flex flex-row justify-evenly [&>li]:ml-4 last:mr-4'>
 						{
 							property.titleCard.content.map((item) => (
 								<li>
@@ -69,10 +69,13 @@ const property: Property = response.data;
 						}
 					</ul>
 				</div>
+				<div class='[&>div]:mt-4 last:mb-4 [&>p]:text-sm [&>div]:grid [&>div]:grid-cols-[1fr_4fr] [&>*]:items-center [&>div]:card [&>div]:min-h-[200px] [&>div]:rounded-sm sm:[&>div]:rounded-lg [&>div]:bg-white [&>div]:p-4 [&>div>h2]:text-3xl [&>div>h2]:m-2 [&>div>div>h2]:text-3xl [&>div>div>h2]:m-2'>
+
 				{
 					property.overview.map((item, index) => (
-						<div class='w-full  flex flex-row justify-evenly items-center '>
-							<h2 class='border-0 text-3xl'>{item.heading}</h2>
+						<div class='w-full  grid grid-cols-[1fr_4fr] [&>*]:items-center '>
+
+							<h2 class='text-left border-0 text-3xl'>{item.heading}</h2>
 							<ul class='flex flex-row justify-evenly [&>li]:ml-4 last:mr-4'>
 								{item.content.map((item) => (
 									<Icon name={item.icon} />
@@ -82,15 +85,15 @@ const property: Property = response.data;
 						</div>
 					))
 				}
-				<div class='flex flex-row'>
-					<h2>About The Property</h2>
-					<div>
-						<p>{property.aboutTheProperty.subHeading}</p>
+				<div class='grid grid-cols-[1fr_4fr] [&>*]:items-center'>
+					<h2 >About The Property</h2>
+					<div class="text-center px-4 [&>p]:mt-2  last:mb-2">
+						<p >{property.aboutTheProperty.subHeading}</p>
 						<p>{property.aboutTheProperty.body}</p>
 					</div>
 				</div>
 				<div class='flex flex-row'>
-					<h2>Amenities</h2>
+					<h2 class='w-[20%] text-left border-0 text-3xl'>Amenities</h2>
 					<div class='grid grid-cols-5 grid-rows-3 gap-4'>
 						{
 							property.amenities.featured.map((amenitiy) => (
@@ -102,9 +105,9 @@ const property: Property = response.data;
 						}
 					</div>
 				</div>
-				<div class=''>
+				<div class='flex flex-col'>
 					<div class='flex flex-row'>
-						<h2>House Rules</h2>
+						<h2 class='w-[20%] text-left border-0 text-3xl'>House Rules</h2>
 						<div class='flex flex-col items-center justify-center'>
 							<div class='flex flex-row flex-wrap'>
 								{property.houseRules.general.map((rule) => <p>{rule}</p>)}
@@ -128,18 +131,20 @@ const property: Property = response.data;
 						</div>
 					</div>
 					<div class='flex flex-row'>
-						<h2>Damage & Incidentals</h2>
+						<h2 class='w-[20%] text-left border-0 text-3xl'>Damage & Incidentals</h2>
 						<div>
 							<p>{property.damageAndIncidentals}</p>
 						</div>
 					</div>
 					<div class='flex flex-row'>
-						<h2>Important Information</h2>
+						<h2 class='w-[20%] text-left border-0 text-3xl'>Important Information</h2>
 						<div class='flex flex-col justify-center items-center'>
 							{property.importantInformation.map((info) => <p>{info}</p>)}
 						</div>
 					</div>
 				</div>
+				</div>
+
 			</section>
 		</div>
 	</main>
